@@ -29,8 +29,50 @@ let login = 1
 let booleanlogin = Boolean(login) //it shows true output 
 console.log(booleanlogin);
 
+
 //"" => false
 
 // "jay" => true 
+
+// ***************************** OPERATIONS ******************************
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+let str1 = "jay"
+let str2 = "villain"
+
+let str3 = str1 + str2 //adding of 2 strings 
+console.log(str3);
+
+let num1 = "1" + 4 + 5 // it gives 145 as output 
+let num2 = "2" + "5"  // it gives output as 25
+
+console.log(num2);
+console.log(num1);
+
+let num3 = 3 + 5 + "3" // it gives 83 as a output
+// _________________________________________________________________________________________________
+
+console.log(true); //true
+
+console.log(+true); //1 as a output 
+
+console.log(+""); //0 output 
+
+// console.log(true+);  it gives an error dont try this ........
+
+console.log(+false); //0 as a output
+
+
+
+
+
+
+
+
+
+
 
 
